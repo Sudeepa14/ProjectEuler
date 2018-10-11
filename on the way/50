@@ -1,0 +1,30 @@
+def pri(q):
+    n=0
+    global s
+    s=0
+    for i in range(2,q):
+        if q%i!=0:
+            n+=1
+            if n==q-2:
+                global l
+                l.append(q)
+                s=1
+l=[2]
+for q in range(3,1000000):
+    pri(q)
+    if s==1:
+        h=0
+        t=0
+        for j in l:
+            while t<q+1: #cheak this b4 exicute
+                
+                t+=j
+                h+=1
+        if t==q and h>hh:
+            hh=h
+            tt=q
+            print(tt)
+    else:
+        
+        continue
+print(tt)

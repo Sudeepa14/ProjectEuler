@@ -1,0 +1,24 @@
+def pri(q):
+    global t
+    n=0
+    for i in range(2,q):
+        if q%i==0:
+            continue
+        else:
+            n+=1
+            if n==q-2:
+                t+=1
+t=0
+p=999
+q=998
+while p>q:
+    p+=1
+    q+=1
+    pri(p)
+    pri(p+3330)
+    pri(p+6660)
+    if t==3:
+        if set(sorted(str(p)))==set(sorted(str(p+3330)))==set(sorted(str(p+6660))) and p!=1487:
+            print(str(p)+str(p+3330)+str(p+6660))
+            p=q
+    t=0

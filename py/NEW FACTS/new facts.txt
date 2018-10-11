@@ -1,0 +1,129 @@
+1.list maximum
+  print(max(list))
+
+2.using multiple conditions
+   if ......... and .......... and........:
+
+3.can't use 'list' to introduce a list
+
+4.for i in p...........((p is a list/string.we can use this to go one by one in a string or count how meny items in there))
+
+5.in a function return( )is the correct not return=
+
+6.cant list a intiger directly.....list(1000) is wrong...list(str(1000)) is correct
+
+7.l.append[] is wrong l.append( ) is correct.
+
+8. not equal "!="
+
+9.for i in range(1,5,1): == for i in range(1,5):
+10.len(li) works
+
+11.p(0) wrong p[0] right ( p is a string)
+
+11. p(0) is wrong........p[0] is correct
+
+13.  a.update({'j':100}) to update the dic
+
+14. a.get('j') get the dic value
+
+11li.remove() works
+
+13 wanna make known type of variable
+      
+     t=0
+     p=str(t)
+    
+     p is ur variable..........
+
+14. for line in f:
+    **********************
+
+( read line in a file .f is the file)
+
+15.learn more on files
+     https://docs.python.org/2/tutorial/inputoutput.html
+
+
+16 what are these:
+   http://www.crummy.com/software/BeautifulSoup/
+   http://lxml.de/
+
+17. import math
+     math.sqrt(x)
+
+
+
+
+*************************************************************************
+
+Function	Description
+int(x [,base])
+
+Converts x to an integer. base specifies the base if x is a string.
+
+long(x [,base] )
+
+Converts x to a long integer. base specifies the base if x is a string.
+
+float(x)
+
+Converts x to a floating-point number.
+
+complex(real [,imag])
+
+Creates a complex number.
+
+str(x)
+
+Converts object x to a string representation.
+
+repr(x)
+
+Converts object x to an expression string.
+
+eval(str)
+
+Evaluates a string and returns an object.
+
+tuple(s)
+
+Converts s to a tuple.
+
+list(s)
+
+Converts s to a list.
+
+set(s)
+
+Converts s to a set.
+
+dict(d)
+
+Creates a dictionary. d must be a sequence of (key,value) tuples.
+
+frozenset(s)
+
+Converts s to a frozen set.
+
+chr(x)
+
+Converts an integer to a character.
+
+unichr(x)
+
+Converts an integer to a Unicode character.
+
+ord(x)
+
+Converts a single character to its integer value.
+
+hex(x)
+
+Converts an integer to a hexadecimal string.
+
+oct(x)
+
+Converts an integer to an octal string.
+*****************************************************************
+

@@ -1,0 +1,21 @@
+l=[0,1,2,3,4,5,6,7,8,9]
+s=0
+x=1
+y=0
+for i in l:
+        for j in l:
+            for k in l:
+             for ll in l:
+                for m in l:
+                  for n in l:
+                      for o in l:
+                          for p in l:
+                              for q in l:
+                                xx=str(i)+str(j)+str(k)+str(ll)+str(m)+str(n)+str(o)+str(p)+str(q)
+                                if sorted(set(xx))==sorted(xx):
+                                   s+=1
+                                   print(xx,s)
+                                   if s==1000000:
+                                      break
+print(xx)
+                         

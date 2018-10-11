@@ -1,0 +1,6 @@
+1. how to use 'is' keyword???
+2.if n==1 :
+        l+=1
+        li.append(
+        v.append()
+   should we use 'and' under the if for combine the statements........

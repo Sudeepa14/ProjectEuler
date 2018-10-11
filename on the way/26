@@ -1,0 +1,22 @@
+for i in range(1,1000):
+    q=1/i
+    s=str(q)[3:]
+    if sorted(set(s))!=sorted(s) and len(s)==16:
+        x=1
+        y=2
+        while y>x:
+         for j in s:
+            x+=1
+            y+=1
+            p=index(j)
+            for k in range(1,17-p):
+                t=l[p:(p+kk)]
+                le=len(t)
+                tt=(17-p)%le
+                ttt=(17-p)//le
+                if tt*(t)+l[ttt-1]==l[(p+kk):]:
+                    x=y
+                    if le>lee:
+                        lee=le
+                        h=i
+print(i)

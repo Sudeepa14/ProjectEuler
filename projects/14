@@ -1,0 +1,23 @@
+def evdd(n):
+    global s
+    if n==1:
+        s+=1
+    elif n%2==0:
+        n=n/2
+        evdd(n)
+        s+=1
+    else:
+        n=3*n+1
+        evdd(n)
+        s+=1
+#check the func first
+
+ss=0
+qq=0
+for q in range(1,1000000):
+    s=0
+    evdd(q)
+    if s>ss:
+        ss=s
+        qq=q
+print(qq)
